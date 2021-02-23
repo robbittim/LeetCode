@@ -14,8 +14,11 @@ public class Main {
 //        PalindromePartitioning palindromePartitioning = new PalindromePartitioning();
 //        palindromePartitioning.partition("aab");
 
-        ReverseInteger reverseInteger = new ReverseInteger();
-        reverseInteger.reverse(321);
+//        ReverseInteger reverseInteger = new ReverseInteger();
+//        reverseInteger.reverse(321);
+
+        PalindromeNumber palindromeNumber = new PalindromeNumber();
+        palindromeNumber.isPalindrome(121);
 
     }
 }
