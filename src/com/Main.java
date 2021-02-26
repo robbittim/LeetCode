@@ -17,8 +17,11 @@ public class Main {
 //        ReverseInteger reverseInteger = new ReverseInteger();
 //        reverseInteger.reverse(321);
 
-        PalindromeNumber palindromeNumber = new PalindromeNumber();
-        palindromeNumber.isPalindrome(121);
+//        PalindromeNumber palindromeNumber = new PalindromeNumber();
+//        palindromeNumber.isPalindrome(121);
+
+        ValidParentheses validParentheses = new ValidParentheses();
+        validParentheses.isValid("([}}])");
 
     }
 }
