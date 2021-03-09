@@ -45,7 +45,7 @@ public class RomanToInteger {
                     }
                     break;
                 case 'L':
-                    ans +=40;
+                    ans +=50;
                     if(i>0 &&s.charAt(i-1) =='X') {
                         ans -=20;
                         break;

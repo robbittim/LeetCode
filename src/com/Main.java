@@ -23,8 +23,15 @@ public class Main {
 //        ValidParentheses validParentheses = new ValidParentheses();
 //        validParentheses.isValid("([}}])");
 
-        RomanToInteger romanToInteger = new RomanToInteger();
-        romanToInteger.romanToInt("MCMXCIV");
+//        RomanToInteger romanToInteger = new RomanToInteger();
+//        romanToInteger.romanToInt("MCMXCIV");
 
+//        RemoveDuplicatesFromSortedArray removeDuplicatesFromSortedArray = new RemoveDuplicatesFromSortedArray();
+//        int[] num={0,0,1,1,2,2,3,3,4};
+//        removeDuplicatesFromSortedArray.removeDuplicates(num);
+
+        LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
+        String[] strs = {"t1828","t180000","t18123","t18"};
+        longestCommonPrefix.longestCommonPrefix(strs);
     }
 }
