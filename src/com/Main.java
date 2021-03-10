@@ -30,8 +30,15 @@ public class Main {
 //        int[] num={0,0,1,1,2,2,3,3,4};
 //        removeDuplicatesFromSortedArray.removeDuplicates(num);
 
-        LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
-        String[] strs = {"t1828","t180000","t18123","t18"};
-        longestCommonPrefix.longestCommonPrefix(strs);
+//        LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
+//        String[] strs = {"t1828","t180000","t18123","t18"};
+//        longestCommonPrefix.longestCommonPrefix(strs);
+
+        MergeTwoSortedLists mergeTwoSortedLists = new MergeTwoSortedLists();
+        ListNode listNode = new ListNode();
+
+
+
+
     }
 }
