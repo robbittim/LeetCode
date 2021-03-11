@@ -34,10 +34,15 @@ public class Main {
 //        String[] strs = {"t1828","t180000","t18123","t18"};
 //        longestCommonPrefix.longestCommonPrefix(strs);
 
-        MergeTwoSortedLists mergeTwoSortedLists = new MergeTwoSortedLists();
-        ListNode listNode = new ListNode();
+//        MergeTwoSortedLists mergeTwoSortedLists = new MergeTwoSortedLists();
+//        ListNode listNode = new ListNode();
 
+//        RemoveElement removeElement = new RemoveElement();
+//        int[] num={3,2,2,3};
+//        removeElement.removeElement(num,3);
 
+        ImplementStrStr implementStrStr = new ImplementStrStr();
+        implementStrStr.strStr("hello","ll");
 
 
     }
