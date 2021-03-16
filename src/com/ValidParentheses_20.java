@@ -17,7 +17,7 @@ https://leetcode.com/problems/valid-parentheses/
 
 
  */
-public class ValidParentheses {
+public class ValidParentheses_20 {
 
     public boolean isValid(String s) {
 

@@ -1,6 +1,6 @@
 package com;
 
-public class PalindromeNumber {
+public class PalindromeNumber_9 {
 
     /*
     9. Palindrome Number

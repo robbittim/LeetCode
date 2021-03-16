@@ -7,7 +7,7 @@ package com;
 https://leetcode.com/problems/reverse-integer/
  */
 
-public class ReverseInteger {
+public class ReverseInteger_7 {
 
 
         public int reverse(int x) {

@@ -7,7 +7,7 @@ Leetcode 1: Two Sum
 https://leetcode.com/problems/two-sum/
 
  */
-public class TwoSum {
+public class TwoSum_1 {
 
     public int[] twoSumSolution(int[] nums, int target) {
 

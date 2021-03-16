@@ -11,7 +11,7 @@ import java.util.List;
 https://leetcode.com/problems/remove-element/
 
  */
-public class RemoveElement {
+public class RemoveElement_27 {
 
 
     public int removeElement(int[] nums, int val) {

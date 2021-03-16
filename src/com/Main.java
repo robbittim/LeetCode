@@ -41,8 +41,12 @@ public class Main {
 //        int[] num={3,2,2,3};
 //        removeElement.removeElement(num,3);
 
-        ImplementStrStr implementStrStr = new ImplementStrStr();
-        implementStrStr.strStr("hello","ll");
+//        ImplementStrStr_28 implementStrStr28 = new ImplementStrStr_28();
+//        implementStrStr28.strStr("hello","ll");
+
+        SearchInsertPosition_35 searchInsertPosition_35 = new SearchInsertPosition_35();
+        int[] num={1,3,5,6};
+        searchInsertPosition_35.searchInsert(num,2);
 
 
     }

@@ -7,7 +7,7 @@ import java.util.HashMap;
 /*
     26. Remove Duplicates from Sorted Array
  */
-public class RemoveDuplicatesFromSortedArray {
+public class RemoveDuplicatesFromSortedArray_26 {
     public int removeDuplicates(int[] nums) {
         if(nums.length<2) return nums.length;
 

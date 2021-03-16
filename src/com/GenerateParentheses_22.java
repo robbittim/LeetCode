@@ -16,7 +16,7 @@ Have idea, understand the total parentheses are n * 2
 
 //TODO: revisit this question and do it again!
 
-public class GenerateParentheses {
+public class GenerateParentheses_22 {
 
 
     public  List<String> generateParenthesis(int n) {

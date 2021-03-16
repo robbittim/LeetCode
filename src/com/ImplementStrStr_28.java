@@ -10,7 +10,7 @@ Input: haystack = "hello", needle = "ll"
 Output: 2
 
  */
-public class ImplementStrStr {
+public class ImplementStrStr_28 {
 
     public int strStr(String haystack, String needle) {
             int ans = 0;

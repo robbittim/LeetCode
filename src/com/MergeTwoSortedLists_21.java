@@ -1,6 +1,4 @@
 package com;
-import java.util.LinkedList;
-import java.io.*;
 
 /*
 21. Merge Two Sorted Lists
@@ -22,12 +20,12 @@ https://leetcode.com/problems/merge-two-sorted-lists/
  * }
  */
 
-public class MergeTwoSortedLists {
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+public class MergeTwoSortedLists_21 {
+    public ListNode_21 mergeTwoLists(ListNode_21 l1, ListNode_21 l2) {
 
         //create temp listNode
-        ListNode temp = new ListNode(-1);
-        ListNode first = temp; // point to the first element of the temp list
+        ListNode_21 temp = new ListNode_21(-1);
+        ListNode_21 first = temp; // point to the first element of the temp list
 
         while(l1!=null && l2!=null) {
             // compare the 1st element in two lists
