@@ -44,10 +44,17 @@ public class Main {
 //        ImplementStrStr_28 implementStrStr28 = new ImplementStrStr_28();
 //        implementStrStr28.strStr("hello","ll");
 
-        SearchInsertPosition_35 searchInsertPosition_35 = new SearchInsertPosition_35();
-        int[] num={1,3,5,6};
-        searchInsertPosition_35.searchInsert(num,2);
+//        SearchInsertPosition_35 searchInsertPosition_35 = new SearchInsertPosition_35();
+//        int[] num={1,3,5,6};
+//        searchInsertPosition_35.searchInsert(num,2);
 
+//        MaximumSubarray_53 maximumSubarray_53 = new MaximumSubarray_53();
+//        int[] nums={-1,2,3,-5,4};
+//        maximumSubarray_53.maxSubArray(nums);
+
+          BuyAndSellStock_121 buyAndSellStock_121 = new BuyAndSellStock_121();
+          int[] nums={2,4,1};
+          buyAndSellStock_121.maxProfit(nums);
 
     }
 }
