@@ -52,9 +52,11 @@ public class Main {
 //        int[] nums={-1,2,3,-5,4};
 //        maximumSubarray_53.maxSubArray(nums);
 
-          BuyAndSellStock_121 buyAndSellStock_121 = new BuyAndSellStock_121();
-          int[] nums={2,4,1};
-          buyAndSellStock_121.maxProfit(nums);
+//          BuyAndSellStock_121 buyAndSellStock_121 = new BuyAndSellStock_121();
+//          int[] nums={2,4,1};
+//          buyAndSellStock_121.maxProfit(nums);
 
+        LengthOfLastWord_58 lengthOfLastWord_58 = new LengthOfLastWord_58();
+        lengthOfLastWord_58.lengthOfLastWord("Hello world");
     }
 }
