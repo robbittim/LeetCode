@@ -56,7 +56,18 @@ public class Main {
 //          int[] nums={2,4,1};
 //          buyAndSellStock_121.maxProfit(nums);
 
-        LengthOfLastWord_58 lengthOfLastWord_58 = new LengthOfLastWord_58();
-        lengthOfLastWord_58.lengthOfLastWord("Hello world");
+//        LengthOfLastWord_58 lengthOfLastWord_58 = new LengthOfLastWord_58();
+//        lengthOfLastWord_58.lengthOfLastWord("Hello world");
+
+//        MergeSortedArray_88 mergeSortedArray_88 = new MergeSortedArray_88();
+//        int[] nums1={1,2,3,0,0,0};
+//        int m =3;
+//        int[] nums2={2,5,6};
+//        int n = 3;
+//        mergeSortedArray_88.merge(nums1,m,nums2,n);
+
+        SquaresOfSortedArray_977 squaresOfSortedArray_977 = new SquaresOfSortedArray_977();
+        int[] nums={-4,-1,0,3,10};
+        squaresOfSortedArray_977.sortedSquares(nums);
     }
 }
