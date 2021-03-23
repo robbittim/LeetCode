@@ -65,9 +65,13 @@ public class Main {
 //        int[] nums2={2,5,6};
 //        int n = 3;
 //        mergeSortedArray_88.merge(nums1,m,nums2,n);
+//
+//        SquaresOfSortedArray_977 squaresOfSortedArray_977 = new SquaresOfSortedArray_977();
+//        int[] nums={-4,-1,0,3,10};
+//        squaresOfSortedArray_977.sortedSquares(nums);
 
-        SquaresOfSortedArray_977 squaresOfSortedArray_977 = new SquaresOfSortedArray_977();
-        int[] nums={-4,-1,0,3,10};
-        squaresOfSortedArray_977.sortedSquares(nums);
+        PlusOne_66 plusOne_66 = new PlusOne_66();
+        int[] nums = {9,8,7,6,5,4,3,2,1,0};
+        plusOne_66.plusOne(nums);
     }
 }
