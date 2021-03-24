@@ -70,8 +70,13 @@ public class Main {
 //        int[] nums={-4,-1,0,3,10};
 //        squaresOfSortedArray_977.sortedSquares(nums);
 
-        PlusOne_66 plusOne_66 = new PlusOne_66();
-        int[] nums = {9,8,7,6,5,4,3,2,1,0};
-        plusOne_66.plusOne(nums);
+//        PlusOne_66 plusOne_66 = new PlusOne_66();
+//        int[] nums = {9,8,7,6,5,4,3,2,1,0};
+//        plusOne_66.plusOne(nums);
+
+        //"10100000100100110110010000010101111011011001101110111111111101000000101111001110001111100001101"
+        //"110101001011101110001111100110001010100001101011101010000011011011001011101111001100000011011110011"
+        AddBinary_67 addBinary_67=new AddBinary_67();
+        addBinary_67.addBinary("11","1");
     }
 }
