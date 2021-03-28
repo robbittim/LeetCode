@@ -79,7 +79,9 @@ public class Main {
 //        AddBinary_67 addBinary_67=new AddBinary_67();
 //        addBinary_67.addBinary("11","1");
 
-        SqrtX_69 sqrtX_69 = new SqrtX_69();
-        sqrtX_69.mySqrt(4);
+//        SqrtX_69 sqrtX_69 = new SqrtX_69();
+//        sqrtX_69.mySqrt(4);
+
+
     }
 }
