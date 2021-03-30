@@ -1,8 +1,8 @@
 package com;
 
-public class BinaryTreeNode_TreeNode {
+public class TreeNode {
 
-       public class TreeNode {
+
           int val;
           TreeNode left;
           TreeNode right;
@@ -13,6 +13,6 @@ public class BinaryTreeNode_TreeNode {
               this.left = left;
               this.right = right;
           }
-      }
+
 
 }

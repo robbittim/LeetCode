@@ -5,11 +5,11 @@ package com;
 https://leetcode.com/problems/maximum-depth-of-binary-tree/
  */
 public class MaxDepthOfBinaryTree_104 {
-    public int maxDepth(BinaryTreeNode_TreeNode.TreeNode root) {
+    public int maxDepth(TreeNode.TreeNode root) {
         return countDepth(root);
     }
 
-    public int countDepth (BinaryTreeNode_TreeNode.TreeNode tree){
+    public int countDepth (TreeNode.TreeNode tree){
         int countLeft = 0;
         int countRight = 0;
         if(tree ==null) return 0;

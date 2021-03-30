@@ -24,12 +24,12 @@ https://leetcode.com/problems/symmetric-tree/
  */
 
 public class SymmetricTree_101 {
-public boolean isSymmetric(BinaryTreeNode_TreeNode.TreeNode root) {
+public boolean isSymmetric(TreeNode.TreeNode root) {
 
    return checkSymmetric(root,root); // make a copy of the tree
     }
 
-    public boolean checkSymmetric(BinaryTreeNode_TreeNode.TreeNode t1, BinaryTreeNode_TreeNode.TreeNode t2){
+    public boolean checkSymmetric(TreeNode.TreeNode t1, TreeNode.TreeNode t2){
 
     if(t1 == null && t2 ==null) return true;
 

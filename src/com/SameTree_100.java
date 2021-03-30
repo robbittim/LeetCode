@@ -26,7 +26,7 @@ https://leetcode.com/problems/same-tree/
  */
 
 public class SameTree_100 {
-    public boolean isSameTree(BinaryTreeNode_TreeNode.TreeNode p, BinaryTreeNode_TreeNode.TreeNode  q) {
+    public boolean isSameTree(TreeNode.TreeNode p, TreeNode.TreeNode  q) {
 
         //p.val is the value of the parent
 
