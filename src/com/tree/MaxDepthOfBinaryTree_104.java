@@ -1,15 +1,15 @@
-package com;
+package com.tree;
 
 /*
 104. Maximum Depth of Binary Tree
 https://leetcode.com/problems/maximum-depth-of-binary-tree/
  */
 public class MaxDepthOfBinaryTree_104 {
-    public int maxDepth(TreeNode.TreeNode root) {
+    public int maxDepth(TreeNode root) {
         return countDepth(root);
     }
 
-    public int countDepth (TreeNode.TreeNode tree){
+    public int countDepth (TreeNode tree){
         int countLeft = 0;
         int countRight = 0;
         if(tree ==null) return 0;

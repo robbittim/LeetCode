@@ -1,4 +1,4 @@
-package com;
+package com.tree;
 
 /*
 100. Same Tree
@@ -26,7 +26,7 @@ https://leetcode.com/problems/same-tree/
  */
 
 public class SameTree_100 {
-    public boolean isSameTree(TreeNode.TreeNode p, TreeNode.TreeNode  q) {
+    public boolean isSameTree(TreeNode p, TreeNode  q) {
 
         //p.val is the value of the parent
 

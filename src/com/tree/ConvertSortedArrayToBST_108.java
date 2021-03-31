@@ -1,10 +1,10 @@
-package com;
+package com.tree;
 
 /*
 108. Convert Sorted Array to Binary Search Tree
 https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
  */
-public class ConvertSortedArrayToBST {
+public class ConvertSortedArrayToBST_108 {
     public TreeNode sortedArrayToBST(int[] nums) {
 
         if(nums.length == 0) return null;

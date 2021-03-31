@@ -1,4 +1,4 @@
-package com;
+package com.tree;
 
 
 /*
@@ -6,6 +6,8 @@ package com;
 https://leetcode.com/problems/symmetric-tree/
  */
 
+
+import com.tree.TreeNode;
 
 /**
  * Definition for a binary tree node.
@@ -24,12 +26,12 @@ https://leetcode.com/problems/symmetric-tree/
  */
 
 public class SymmetricTree_101 {
-public boolean isSymmetric(TreeNode.TreeNode root) {
+public boolean isSymmetric(TreeNode root) {
 
    return checkSymmetric(root,root); // make a copy of the tree
     }
 
-    public boolean checkSymmetric(TreeNode.TreeNode t1, TreeNode.TreeNode t2){
+    public boolean checkSymmetric(TreeNode t1, TreeNode t2){
 
     if(t1 == null && t2 ==null) return true;
 
