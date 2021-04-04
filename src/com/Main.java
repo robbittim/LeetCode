@@ -82,8 +82,12 @@ public class Main {
 //        SqrtX_69 sqrtX_69 = new SqrtX_69();
 //        sqrtX_69.mySqrt(4);
 
-        PascalTriangle_118 pascalTriangle_118 = new PascalTriangle_118();
-        pascalTriangle_118.generate(5);
+//        PascalTriangle_118 pascalTriangle_118 = new PascalTriangle_118();
+//        pascalTriangle_118.generate(5);
+
+        BuyAndSellStock2_122 buyAndSellStock2_122 = new BuyAndSellStock2_122();
+          int[] nums={1,2,3,4,5};
+          buyAndSellStock2_122.maxProfit(nums);
 
     }
 }
