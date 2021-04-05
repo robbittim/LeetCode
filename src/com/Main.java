@@ -85,9 +85,18 @@ public class Main {
 //        PascalTriangle_118 pascalTriangle_118 = new PascalTriangle_118();
 //        pascalTriangle_118.generate(5);
 
-        BuyAndSellStock2_122 buyAndSellStock2_122 = new BuyAndSellStock2_122();
-          int[] nums={1,2,3,4,5};
-          buyAndSellStock2_122.maxProfit(nums);
+//        BuyAndSellStock2_122 buyAndSellStock2_122 = new BuyAndSellStock2_122();
+//          int[] nums={1,2,3,4,5};
+//          buyAndSellStock2_122.maxProfit(nums);
+
+//        ValidPalindrome_125 validPalindrome_125 = new ValidPalindrome_125();
+//        //A man, a plan, a canal: Panama
+//        //a.
+//        //.,
+//        validPalindrome_125.isPalindrome("abb");
+
+        ValidPalindrome2_680 validPalindrome2_680 = new ValidPalindrome2_680();
+        validPalindrome2_680.validPalindrome("tebbem");
 
     }
 }
