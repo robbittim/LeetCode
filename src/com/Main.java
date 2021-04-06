@@ -95,8 +95,11 @@ public class Main {
 //        //.,
 //        validPalindrome_125.isPalindrome("abb");
 
-        ValidPalindrome2_680 validPalindrome2_680 = new ValidPalindrome2_680();
-        validPalindrome2_680.validPalindrome("tebbem");
+//        ValidPalindrome2_680 validPalindrome2_680 = new ValidPalindrome2_680();
+//        validPalindrome2_680.validPalindrome("tebbem");
 
+        SingleNumber_136 sIngleNumber_136 = new SingleNumber_136();
+        int[] nums={-1,-1,-2};
+        sIngleNumber_136.singleNumber(nums);
     }
 }
