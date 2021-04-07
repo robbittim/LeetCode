@@ -98,8 +98,12 @@ public class Main {
 //        ValidPalindrome2_680 validPalindrome2_680 = new ValidPalindrome2_680();
 //        validPalindrome2_680.validPalindrome("tebbem");
 
-        SingleNumber_136 sIngleNumber_136 = new SingleNumber_136();
-        int[] nums={-1,-1,-2};
-        sIngleNumber_136.singleNumber(nums);
+//        SingleNumber_136 sIngleNumber_136 = new SingleNumber_136();
+//        int[] nums={-1,-1,-2};
+//        sIngleNumber_136.singleNumber(nums);
+
+        TwoSum2_167 twoSum2_167 = new TwoSum2_167();
+        int[] nums={2,3,4};
+        twoSum2_167.twoSum(nums,6);
     }
 }
