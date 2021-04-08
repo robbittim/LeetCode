@@ -1,5 +1,8 @@
 package com;
 
+import com.array.MajorityElement_169;
+import com.array.TwoSum2_167;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -102,8 +105,12 @@ public class Main {
 //        int[] nums={-1,-1,-2};
 //        sIngleNumber_136.singleNumber(nums);
 
-        TwoSum2_167 twoSum2_167 = new TwoSum2_167();
-        int[] nums={2,3,4};
-        twoSum2_167.twoSum(nums,6);
+//        TwoSum2_167 twoSum2_167 = new TwoSum2_167();
+//        int[] nums={2,3,4};
+//        twoSum2_167.twoSum(nums,6);
+
+        MajorityElement_169 majorityElement_169 = new MajorityElement_169();
+        int[] nums={3,2,3};
+        majorityElement_169.majorityElement(nums);
     }
 }

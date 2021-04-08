@@ -1,4 +1,4 @@
-package com;
+package com.array;
 
 /*
 167. Two Sum II - Input array is sorted
