@@ -1,5 +1,7 @@
 package com;
 
+import com.array.ContainsDuplicate2_219;
+import com.array.ContainsDuplicate_217;
 import com.array.MajorityElement_169;
 import com.array.TwoSum2_167;
 
@@ -109,8 +111,18 @@ public class Main {
 //        int[] nums={2,3,4};
 //        twoSum2_167.twoSum(nums,6);
 
-        MajorityElement_169 majorityElement_169 = new MajorityElement_169();
-        int[] nums={3,2,3};
-        majorityElement_169.majorityElement(nums);
+//        MajorityElement_169 majorityElement_169 = new MajorityElement_169();
+//        int[] nums={3,2,3};
+//        majorityElement_169.majorityElement(nums);
+
+//        ContainsDuplicate_217 containsDuplicate_217 = new ContainsDuplicate_217();
+//        int[] nums={1,2,3,1};
+//        containsDuplicate_217.containsDuplicate(nums);
+
+
+        ContainsDuplicate2_219 containsDuplicate2_219 = new ContainsDuplicate2_219();
+        int[] nums={1,2,3,1,2,3};
+        containsDuplicate2_219.containsNearbyDuplicate(nums,2);
+
     }
 }
