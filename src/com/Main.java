@@ -1,6 +1,9 @@
 package com;
 
-import com.array.*;
+import com.array.ContainsDuplicate2_219;
+import com.array.ContainsDuplicate_217;
+import com.array.MajorityElement_169;
+import com.array.TwoSum2_167;
 
 public class Main {
 
@@ -117,14 +120,9 @@ public class Main {
 //        containsDuplicate_217.containsDuplicate(nums);
 
 
-//        ContainsDuplicate2_219 containsDuplicate2_219 = new ContainsDuplicate2_219();
-//        int[] nums={1,2,3,1,2,3};
-//        containsDuplicate2_219.containsNearbyDuplicate(nums,2);
-
-        SummaryRanges_228 summaryRanges_228 = new SummaryRanges_228();
-        int[] nums={0,1,2,4,5,7};
-        summaryRanges_228.summaryRanges(nums);
-
+        ContainsDuplicate2_219 containsDuplicate2_219 = new ContainsDuplicate2_219();
+        int[] nums={1,2,3,1,2,3};
+        containsDuplicate2_219.containsNearbyDuplicate(nums,2);
 
     }
 }
