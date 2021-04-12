@@ -121,9 +121,12 @@ public class Main {
 //        int[] nums={1,2,3,1,2,3};
 //        containsDuplicate2_219.containsNearbyDuplicate(nums,2);
 
-        MissingNumber_268 missingNumber_268 = new MissingNumber_268();
-        int[] nums={0,1};
-        missingNumber_268.missingNumber(nums);
+//        MissingNumber_268 missingNumber_268 = new MissingNumber_268();
+//        int[] nums={0,1};
+//        missingNumber_268.missingNumber(nums);
 
+        MoveZeroes_283 moveZeroes_283 = new MoveZeroes_283();
+        int[] nums={0,1,0,3,12};
+        moveZeroes_283.moveZeroes(nums);
     }
 }
