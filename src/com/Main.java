@@ -1,6 +1,7 @@
 package com;
 
 import com.array.*;
+import com.hashtable.HappyNumber_202;
 
 public class Main {
 
@@ -125,8 +126,11 @@ public class Main {
 //        int[] nums={0,1};
 //        missingNumber_268.missingNumber(nums);
 
-        MoveZeroes_283 moveZeroes_283 = new MoveZeroes_283();
-        int[] nums={0,1,0,3,12};
-        moveZeroes_283.moveZeroes(nums);
+//        MoveZeroes_283 moveZeroes_283 = new MoveZeroes_283();
+//        int[] nums={0,1,0,3,12};
+//        moveZeroes_283.moveZeroes(nums);
+
+        HappyNumber_202 happyNumber_202 = new HappyNumber_202();
+        happyNumber_202.isHappy(19);
     }
 }
