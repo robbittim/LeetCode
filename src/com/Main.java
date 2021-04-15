@@ -3,6 +3,7 @@ package com;
 import com.array.*;
 import com.hashtable.CountPrimes_204;
 import com.hashtable.HappyNumber_202;
+import com.hashtable.IsomorphicStrings_205;
 
 public class Main {
 
@@ -134,8 +135,11 @@ public class Main {
 //        HappyNumber_202 happyNumber_202 = new HappyNumber_202();
 //        happyNumber_202.isHappy(19);
 
-        CountPrimes_204 countPrimes_204 = new CountPrimes_204();
-        countPrimes_204.countPrimes(10);
+//        CountPrimes_204 countPrimes_204 = new CountPrimes_204();
+//        countPrimes_204.countPrimes(10);
+
+        IsomorphicStrings_205 isomorphicStrings_205 = new IsomorphicStrings_205();
+        isomorphicStrings_205.isIsomorphic("egg","add");
 
     }
 }
