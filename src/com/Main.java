@@ -1,10 +1,7 @@
 package com;
 
 import com.array.*;
-import com.hashtable.CountPrimes_204;
-import com.hashtable.HappyNumber_202;
-import com.hashtable.IsomorphicStrings_205;
-import com.hashtable.ValidAnagram_242;
+import com.hashtable.*;
 
 public class Main {
 
@@ -142,8 +139,11 @@ public class Main {
 //        IsomorphicStrings_205 isomorphicStrings_205 = new IsomorphicStrings_205();
 //        isomorphicStrings_205.isIsomorphic("egg","add");
 
-        ValidAnagram_242 validAnagram_242 = new ValidAnagram_242();
-        validAnagram_242.isAnagram("rat","car");
+//        ValidAnagram_242 validAnagram_242 = new ValidAnagram_242();
+//        validAnagram_242.isAnagram("rat","car");
+
+        WordPattern_290 wordPattern_290 = new WordPattern_290();
+        wordPattern_290.wordPattern("abba","dog cat cat fish");
 
     }
 }
