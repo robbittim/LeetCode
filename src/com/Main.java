@@ -142,8 +142,12 @@ public class Main {
 //        ValidAnagram_242 validAnagram_242 = new ValidAnagram_242();
 //        validAnagram_242.isAnagram("rat","car");
 
-        WordPattern_290 wordPattern_290 = new WordPattern_290();
-        wordPattern_290.wordPattern("abba","dog cat cat fish");
+//        WordPattern_290 wordPattern_290 = new WordPattern_290();
+//        wordPattern_290.wordPattern("abba","dog cat cat fish");
 
+        IntersectionOfTwoArrays_349 intersectionOfTwoArrays_349 = new IntersectionOfTwoArrays_349();
+        int n1[] = {1,2,2,1};
+        int n2[] = {2,2};
+        intersectionOfTwoArrays_349.intersection(n1,n2);
     }
 }
