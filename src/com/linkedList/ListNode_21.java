@@ -1,4 +1,4 @@
-package com;
+package com.linkedList;
 
 public class ListNode_21 {
     int val;

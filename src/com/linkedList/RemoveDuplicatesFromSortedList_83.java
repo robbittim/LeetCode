@@ -1,4 +1,4 @@
-package com;
+package com.linkedList;
 /*
 83. Remove Duplicates from Sorted List
 
@@ -17,7 +17,7 @@ https://leetcode.com/problems/remove-duplicates-from-sorted-list/
  * }
  */
 
-public class RemoveDuplicatesFromSortedList {
+public class RemoveDuplicatesFromSortedList_83 {
 
     public ListNode_21 deleteDuplicates(ListNode_21 head) {
 
