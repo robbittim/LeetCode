@@ -31,7 +31,7 @@ public class IntersectionOfTwoArrays_349 {
         int[] out = sameList.stream().mapToInt(Integer::intValue).toArray();
         out = Arrays.stream(out).distinct().toArray();
         System.out.println(Arrays.toString(out));
-
+        System.out.println("same value = ");
         return out;
 
 

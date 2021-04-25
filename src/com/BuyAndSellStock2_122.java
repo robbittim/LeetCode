@@ -13,6 +13,7 @@ public class
 BuyAndSellStock2_122 {
 
     public int maxProfit(int[] prices) {
+
         // using two for loop is too slow
         /*
         int max = 0;

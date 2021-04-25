@@ -2,10 +2,18 @@ package com;
 
 import com.array.*;
 import com.hashtable.*;
+import com.linkedList.ListNode;
+import com.linkedList.MiddleOfTheLinkedList_876;
 
 public class Main {
 
+    public static void test(){
+        int size = 6;
+        System.out.println(size/2);
+    }
+
     public static void main(String[] args) {
+        test();
 
        //GenerateParentheses generateParentheses = new GenerateParentheses();
         //generateParentheses.generateParenthesis(3);
@@ -145,9 +153,11 @@ public class Main {
 //        WordPattern_290 wordPattern_290 = new WordPattern_290();
 //        wordPattern_290.wordPattern("abba","dog cat cat fish");
 
-        IntersectionOfTwoArrays_349 intersectionOfTwoArrays_349 = new IntersectionOfTwoArrays_349();
-        int n1[] = {1,2,2,1};
-        int n2[] = {2,2};
-        intersectionOfTwoArrays_349.intersection(n1,n2);
+//        IntersectionOfTwoArrays_349 intersectionOfTwoArrays_349 = new IntersectionOfTwoArrays_349();
+//        int n1[] = {1,2,2,1};
+//        int n2[] = {2,2};
+//        intersectionOfTwoArrays_349.intersection(n1,n2);
+
+
     }
 }
