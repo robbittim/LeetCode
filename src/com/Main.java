@@ -4,6 +4,8 @@ import com.array.*;
 import com.hashtable.*;
 import com.linkedList.ListNode;
 import com.linkedList.MiddleOfTheLinkedList_876;
+import com.math.ExcelSheetColumnNumber_171;
+import com.math.ExcelSheetColumnTitle_168;
 
 public class Main {
 
@@ -13,7 +15,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        test();
+//        test();
 
        //GenerateParentheses generateParentheses = new GenerateParentheses();
         //generateParentheses.generateParenthesis(3);
@@ -158,6 +160,10 @@ public class Main {
 //        int n2[] = {2,2};
 //        intersectionOfTwoArrays_349.intersection(n1,n2);
 
+//        ExcelSheetColumnTitle_168 excelSheetColumnTitle_168 = new ExcelSheetColumnTitle_168();
+//        excelSheetColumnTitle_168.convertToTitle(28);
 
+        ExcelSheetColumnNumber_171 excelSheetColumnNumber_171 = new ExcelSheetColumnNumber_171();
+        excelSheetColumnNumber_171.titleToNumber("XY");
     }
 }
