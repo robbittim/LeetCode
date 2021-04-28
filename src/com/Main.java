@@ -4,6 +4,7 @@ import com.array.*;
 import com.hashtable.*;
 import com.linkedList.ListNode;
 import com.linkedList.MiddleOfTheLinkedList_876;
+import com.math.Base7_504;
 import com.math.ExcelSheetColumnNumber_171;
 import com.math.ExcelSheetColumnTitle_168;
 
@@ -163,7 +164,10 @@ public class Main {
 //        ExcelSheetColumnTitle_168 excelSheetColumnTitle_168 = new ExcelSheetColumnTitle_168();
 //        excelSheetColumnTitle_168.convertToTitle(28);
 
-        ExcelSheetColumnNumber_171 excelSheetColumnNumber_171 = new ExcelSheetColumnNumber_171();
-        excelSheetColumnNumber_171.titleToNumber("XY");
+//        ExcelSheetColumnNumber_171 excelSheetColumnNumber_171 = new ExcelSheetColumnNumber_171();
+//        excelSheetColumnNumber_171.titleToNumber("XY");
+
+        Base7_504 base7_504 = new Base7_504();
+        base7_504.convertToBase7(100);
     }
 }
