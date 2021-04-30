@@ -4,10 +4,7 @@ import com.array.*;
 import com.hashtable.*;
 import com.linkedList.ListNode;
 import com.linkedList.MiddleOfTheLinkedList_876;
-import com.math.Base16_405;
-import com.math.Base7_504;
-import com.math.ExcelSheetColumnNumber_171;
-import com.math.ExcelSheetColumnTitle_168;
+import com.math.*;
 
 public class Main {
 
@@ -171,7 +168,10 @@ public class Main {
 //        Base7_504 base7_504 = new Base7_504();
 //        base7_504.convertToBase7(100);
 
-        Base16_405 base16_405 = new Base16_405();
-        base16_405.toHex(26);
+//        Base16_405 base16_405 = new Base16_405();
+//        base16_405.toHex(26);
+
+        FactorialTrailingZeros_172 factorialTrailingZeros_172 = new FactorialTrailingZeros_172();
+        factorialTrailingZeros_172.trailingZeroes(3);
     }
 }
