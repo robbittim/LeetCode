@@ -171,7 +171,11 @@ public class Main {
 //        Base16_405 base16_405 = new Base16_405();
 //        base16_405.toHex(26);
 
-        FactorialTrailingZeros_172 factorialTrailingZeros_172 = new FactorialTrailingZeros_172();
-        factorialTrailingZeros_172.trailingZeroes(3);
+//        FactorialTrailingZeros_172 factorialTrailingZeros_172 = new FactorialTrailingZeros_172();
+//        factorialTrailingZeros_172.trailingZeroes(3);
+
+        ProductOfThreeNumber_628 productOfThreeNumber_628 = new ProductOfThreeNumber_628();
+        int nums[] = {-1,-2,-3,4};
+        productOfThreeNumber_628.maximumProduct(nums);
     }
 }
