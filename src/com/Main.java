@@ -5,6 +5,7 @@ import com.hashtable.*;
 import com.linkedList.ListNode;
 import com.linkedList.MiddleOfTheLinkedList_876;
 import com.math.*;
+import com.math.MajorityElement_169;
 
 public class Main {
 
@@ -171,7 +172,15 @@ public class Main {
 //        Base16_405 base16_405 = new Base16_405();
 //        base16_405.toHex(26);
 
-        FactorialTrailingZeros_172 factorialTrailingZeros_172 = new FactorialTrailingZeros_172();
-        factorialTrailingZeros_172.trailingZeroes(3);
+//        FactorialTrailingZeros_172 factorialTrailingZeros_172 = new FactorialTrailingZeros_172();
+//        factorialTrailingZeros_172.trailingZeroes(3);
+
+//        AddStrings_415 addStrings_415 = new AddStrings_415();
+//        addStrings_415.addStrings("1789","15");
+
+        //From Math, 2nd time
+        MajorityElement_169 majorityElement_169 = new MajorityElement_169();
+        int n1[] = {3,2,3};
+        majorityElement_169.majorityElement(n1);
     }
 }
