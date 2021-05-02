@@ -175,12 +175,17 @@ public class Main {
 //        FactorialTrailingZeros_172 factorialTrailingZeros_172 = new FactorialTrailingZeros_172();
 //        factorialTrailingZeros_172.trailingZeroes(3);
 
+
 //        AddStrings_415 addStrings_415 = new AddStrings_415();
 //        addStrings_415.addStrings("1789","15");
 
         //From Math, 2nd time
         MajorityElement_169 majorityElement_169 = new MajorityElement_169();
         int n1[] = {3,2,3};
-        majorityElement_169.majorityElement(n1);
+
+        ProductOfThreeNumber_628 productOfThreeNumber_628 = new ProductOfThreeNumber_628();
+        int nums[] = {-1,-2,-3,4};
+        productOfThreeNumber_628.maximumProduct(nums);
+
     }
 }
