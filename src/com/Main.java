@@ -1,5 +1,6 @@
 package com;
 
+import com.TwoPointers.TwoSum2_167;
 import com.array.*;
 import com.hashtable.*;
 import com.linkedList.ListNode;
@@ -180,12 +181,19 @@ public class Main {
 //        addStrings_415.addStrings("1789","15");
 
         //From Math, 2nd time
-        MajorityElement_169 majorityElement_169 = new MajorityElement_169();
-        int n1[] = {3,2,3};
+//        MajorityElement_169 majorityElement_169 = new MajorityElement_169();
+//        int n1[] = {3,2,3};
+//
+//        ProductOfThreeNumber_628 productOfThreeNumber_628 = new ProductOfThreeNumber_628();
+//        int nums[] = {-1,-2,-3,4};
+//        productOfThreeNumber_628.maximumProduct(nums);
 
-        ProductOfThreeNumber_628 productOfThreeNumber_628 = new ProductOfThreeNumber_628();
-        int nums[] = {-1,-2,-3,4};
-        productOfThreeNumber_628.maximumProduct(nums);
+        //From two pointers, 2nd time
+        TwoSum2_167 twoSum2_167 = new TwoSum2_167();
+        int nums[] = {2,7,11,15};
+        twoSum2_167.twoSum(nums,9);
+
+
 
     }
 }
