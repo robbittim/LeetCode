@@ -1,5 +1,6 @@
 package com;
 
+import com.TwoPointers.SumOfSquareNumbers_633;
 import com.TwoPointers.TwoSum2_167;
 import com.array.*;
 import com.hashtable.*;
@@ -189,9 +190,13 @@ public class Main {
 //        productOfThreeNumber_628.maximumProduct(nums);
 
         //From two pointers, 2nd time
-        TwoSum2_167 twoSum2_167 = new TwoSum2_167();
-        int nums[] = {2,7,11,15};
-        twoSum2_167.twoSum(nums,9);
+//        TwoSum2_167 twoSum2_167 = new TwoSum2_167();
+//        int nums[] = {2,7,11,15};
+//        twoSum2_167.twoSum(nums,9);
+
+        SumOfSquareNumbers_633 sumOfSquareNumbers_633 = new SumOfSquareNumbers_633();
+        sumOfSquareNumbers_633.judgeSquareSum(
+                5);
 
 
 
