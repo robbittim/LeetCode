@@ -1,5 +1,6 @@
 package com;
 
+import com.TwoPointers.ReverseVowelsOfString_345;
 import com.TwoPointers.SumOfSquareNumbers_633;
 import com.TwoPointers.TwoSum2_167;
 import com.array.*;
@@ -194,9 +195,11 @@ public class Main {
 //        int nums[] = {2,7,11,15};
 //        twoSum2_167.twoSum(nums,9);
 
-        SumOfSquareNumbers_633 sumOfSquareNumbers_633 = new SumOfSquareNumbers_633();
-        sumOfSquareNumbers_633.judgeSquareSum(
-                5);
+//        SumOfSquareNumbers_633 sumOfSquareNumbers_633 = new SumOfSquareNumbers_633();
+//        sumOfSquareNumbers_633.judgeSquareSum(5);
+
+        ReverseVowelsOfString_345 reverseVowelsOfString_345= new ReverseVowelsOfString_345();
+        reverseVowelsOfString_345.reverseVowels("hello");
 
 
 
