@@ -1,8 +1,10 @@
 package com;
 
+import com.TwoPointers.MergeSortedArray_88;
 import com.TwoPointers.ReverseVowelsOfString_345;
 import com.TwoPointers.SumOfSquareNumbers_633;
 import com.TwoPointers.TwoSum2_167;
+import com.TwoPointers.ValidPalindrome2_680;
 import com.array.*;
 import com.hashtable.*;
 import com.linkedList.ListNode;
@@ -198,9 +200,16 @@ public class Main {
 //        SumOfSquareNumbers_633 sumOfSquareNumbers_633 = new SumOfSquareNumbers_633();
 //        sumOfSquareNumbers_633.judgeSquareSum(5);
 
-        ReverseVowelsOfString_345 reverseVowelsOfString_345= new ReverseVowelsOfString_345();
-        reverseVowelsOfString_345.reverseVowels("hello");
+//        ReverseVowelsOfString_345 reverseVowelsOfString_345= new ReverseVowelsOfString_345();
+//        reverseVowelsOfString_345.reverseVowels("hello");
 
+//        ValidPalindrome2_680 validPalindrome2_680 = new ValidPalindrome2_680();
+//        validPalindrome2_680.validPalindrome("abca");
+
+        MergeSortedArray_88 mergeSortedArray_88 = new MergeSortedArray_88();
+        int nums1[] = {1,2,3};
+        int nums2[] = {2,5,6};
+        mergeSortedArray_88.merge(nums1,3,nums2,3);
 
 
     }
