@@ -1,8 +1,7 @@
 package com;
 
+import com.TwoPointers.*;
 import com.TwoPointers.MergeSortedArray_88;
-import com.TwoPointers.ReverseVowelsOfString_345;
-import com.TwoPointers.SumOfSquareNumbers_633;
 import com.TwoPointers.TwoSum2_167;
 import com.TwoPointers.ValidPalindrome2_680;
 import com.array.*;
@@ -11,6 +10,9 @@ import com.linkedList.ListNode;
 import com.linkedList.MiddleOfTheLinkedList_876;
 import com.math.*;
 import com.math.MajorityElement_169;
+
+import java.util.Arrays;
+import java.util.List;
 
 public class Main {
 
@@ -206,11 +208,14 @@ public class Main {
 //        ValidPalindrome2_680 validPalindrome2_680 = new ValidPalindrome2_680();
 //        validPalindrome2_680.validPalindrome("abca");
 
-        MergeSortedArray_88 mergeSortedArray_88 = new MergeSortedArray_88();
-        int nums1[] = {1,2,3};
-        int nums2[] = {2,5,6};
-        mergeSortedArray_88.merge(nums1,3,nums2,3);
+//        MergeSortedArray_88 mergeSortedArray_88 = new MergeSortedArray_88();
+//        int nums1[] = {1,2,3};
+//        int nums2[] = {2,5,6};
+//        mergeSortedArray_88.merge(nums1,3,nums2,3);
 
+        LongestWordInDictionary_524 longestWordInDictionary_524 = new LongestWordInDictionary_524();
+        List<String> list = Arrays.asList("a","b","c");
+        longestWordInDictionary_524.findLongestWord("abpcplea",list);
 
     }
 }
