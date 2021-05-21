@@ -10,6 +10,7 @@ import com.linkedList.ListNode;
 import com.linkedList.MiddleOfTheLinkedList_876;
 import com.math.*;
 import com.math.MajorityElement_169;
+import com.queue_stack.ValidParentheses_20;
 
 import java.util.Arrays;
 import java.util.List;
@@ -212,10 +213,12 @@ public class Main {
 //        int nums1[] = {1,2,3};
 //        int nums2[] = {2,5,6};
 //        mergeSortedArray_88.merge(nums1,3,nums2,3);
+//
+//        LongestWordInDictionary_524 longestWordInDictionary_524 = new LongestWordInDictionary_524();
+//        List<String> list = Arrays.asList("a","b","c");
+//        longestWordInDictionary_524.findLongestWord("abpcplea",list);
 
-        LongestWordInDictionary_524 longestWordInDictionary_524 = new LongestWordInDictionary_524();
-        List<String> list = Arrays.asList("a","b","c");
-        longestWordInDictionary_524.findLongestWord("abpcplea",list);
-
+        ValidParentheses_20 validParentheses_20 = new ValidParentheses_20();
+        validParentheses_20.isValid("(]");
     }
 }
