@@ -10,6 +10,7 @@ import com.linkedList.ListNode;
 import com.linkedList.MiddleOfTheLinkedList_876;
 import com.math.*;
 import com.math.MajorityElement_169;
+import com.queue_stack.M739_DailyTemperatures;
 import com.queue_stack.ValidParentheses_20;
 
 import java.util.Arrays;
@@ -218,7 +219,11 @@ public class Main {
 //        List<String> list = Arrays.asList("a","b","c");
 //        longestWordInDictionary_524.findLongestWord("abpcplea",list);
 
-        ValidParentheses_20 validParentheses_20 = new ValidParentheses_20();
-        validParentheses_20.isValid("(]");
+//        ValidParentheses_20 validParentheses_20 = new ValidParentheses_20();
+//        validParentheses_20.isValid("(]");
+
+        M739_DailyTemperatures m739_dailyTemperatures = new M739_DailyTemperatures();
+        int temp[] = {74,75,71,69,72,76};
+        m739_dailyTemperatures.dailyTemperatures(temp);
     }
 }
