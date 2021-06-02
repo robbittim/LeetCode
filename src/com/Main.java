@@ -1,20 +1,6 @@
 package com;
 
-import com.TwoPointers.*;
-import com.TwoPointers.MergeSortedArray_88;
-import com.TwoPointers.TwoSum2_167;
-import com.TwoPointers.ValidPalindrome2_680;
-import com.array.*;
-import com.hashtable.*;
-import com.linkedList.ListNode;
-import com.linkedList.MiddleOfTheLinkedList_876;
-import com.math.*;
-import com.math.MajorityElement_169;
-import com.queue_stack.M739_DailyTemperatures;
-import com.queue_stack.ValidParentheses_20;
-
-import java.util.Arrays;
-import java.util.List;
+import com.sorting.M215_KthLargestElement;
 
 public class Main {
 
@@ -222,8 +208,16 @@ public class Main {
 //        ValidParentheses_20 validParentheses_20 = new ValidParentheses_20();
 //        validParentheses_20.isValid("(]");
 
-        M739_DailyTemperatures m739_dailyTemperatures = new M739_DailyTemperatures();
-        int temp[] = {74,75,71,69,72,76};
-        m739_dailyTemperatures.dailyTemperatures(temp);
+//        M739_DailyTemperatures m739_dailyTemperatures = new M739_DailyTemperatures();
+//        int temp[] = {74,75,71,69,72,76};
+//        m739_dailyTemperatures.dailyTemperatures(temp);
+
+//        M503_NextGreaterElement2 m503_nextGreaterElement2 = new M503_NextGreaterElement2();
+//        int temp[] = {1,2,3,4,3};
+//        m503_nextGreaterElement2.nextGreaterElements(temp);
+
+        M215_KthLargestElement m215_kthLargestElement = new M215_KthLargestElement();
+        int temp[] = {3,2,3,1,2,4,5,5,6};
+        m215_kthLargestElement.findKthLargest(temp,4);
     }
 }
