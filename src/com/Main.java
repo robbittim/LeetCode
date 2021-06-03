@@ -1,6 +1,9 @@
 package com;
 
 import com.sorting.M215_KthLargestElement;
+import com.sorting.M347_TopKFrequentElements;
+import com.sorting.M451_SortCharactersByFrequency;
+import sun.nio.cs.IBM437;
 
 public class Main {
 
@@ -216,8 +219,15 @@ public class Main {
 //        int temp[] = {1,2,3,4,3};
 //        m503_nextGreaterElement2.nextGreaterElements(temp);
 
-        M215_KthLargestElement m215_kthLargestElement = new M215_KthLargestElement();
-        int temp[] = {3,2,3,1,2,4,5,5,6};
-        m215_kthLargestElement.findKthLargest(temp,4);
+//        M215_KthLargestElement m215_kthLargestElement = new M215_KthLargestElement();
+//        int temp[] = {3,2,3,1,2,4,5,5,6};
+//        m215_kthLargestElement.findKthLargest(temp,4);
+
+//        M347_TopKFrequentElements m347_topKFrequentElements = new M347_TopKFrequentElements();
+//        int temp[] = {1,1,1,2,2,3};
+//        m347_topKFrequentElements.topKFrequent(temp,2);
+
+        M451_SortCharactersByFrequency m451_sortCharactersByFrequency = new M451_SortCharactersByFrequency();
+        m451_sortCharactersByFrequency.frequencySort("Aabb");
     }
 }
