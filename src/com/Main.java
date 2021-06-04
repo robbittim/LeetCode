@@ -3,6 +3,7 @@ package com;
 import com.sorting.M215_KthLargestElement;
 import com.sorting.M347_TopKFrequentElements;
 import com.sorting.M451_SortCharactersByFrequency;
+import com.sorting.M75_SortColors;
 import sun.nio.cs.IBM437;
 
 public class Main {
@@ -227,7 +228,11 @@ public class Main {
 //        int temp[] = {1,1,1,2,2,3};
 //        m347_topKFrequentElements.topKFrequent(temp,2);
 
-        M451_SortCharactersByFrequency m451_sortCharactersByFrequency = new M451_SortCharactersByFrequency();
-        m451_sortCharactersByFrequency.frequencySort("Aabb");
+//        M451_SortCharactersByFrequency m451_sortCharactersByFrequency = new M451_SortCharactersByFrequency();
+//        m451_sortCharactersByFrequency.frequencySort("Aabb");
+
+        M75_SortColors m75_sortColors = new M75_SortColors();
+        int temp[] = {2,0,2,1,1,0};
+        m75_sortColors.sortColors(temp);
     }
 }

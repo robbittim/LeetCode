@@ -58,7 +58,9 @@ public class M451_SortCharactersByFrequency {
             map.put(c,map.getOrDefault(c,0) +1);
         }
 
-        /**the pattern a - b sorts by smallest first(which is the default sorting)
+        /**https://stackoverflow.com/questions/29872664/add-key-and-value-into-an-priority-queue-and-sort-by-key-in-java/29873362
+         *
+         * the pattern a - b sorts by smallest first(which is the default sorting)
          * b - a sorts by largest values first.
          *
          * pattern a - b  =
