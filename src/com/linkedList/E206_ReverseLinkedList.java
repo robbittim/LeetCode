@@ -1,11 +1,11 @@
 package com.linkedList;
 
 /*
+6.5.21
 206. Reverse Linked List
-
 https://leetcode.com/problems/reverse-linked-list/
  */
-public class ReverseLinkedList_206 {
+public class E206_ReverseLinkedList {
 
     public ListNode reverseList(ListNode head) {
 
@@ -13,13 +13,11 @@ public class ReverseLinkedList_206 {
 
         ListNode temp = null;
 
-        ListNode curr = head;
-
-         while(curr !=null){
-             ListNode next = curr.next;
-             curr.next = temp;
-             temp = curr;
-             curr = next;
+         while(head !=null){
+             ListNode next = head.next;
+             head.next = temp;
+             temp = head;
+             head = next;
 
          }
 

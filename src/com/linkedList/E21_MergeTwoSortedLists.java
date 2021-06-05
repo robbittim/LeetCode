@@ -1,6 +1,7 @@
 package com.linkedList;
 
 /*
+6.5
 21. Merge Two Sorted Lists
 
 Merge two sorted linked lists and return it as a sorted list.
@@ -20,7 +21,7 @@ https://leetcode.com/problems/merge-two-sorted-lists/
  * }
  */
 
-public class MergeTwoSortedLists_21 {
+public class E21_MergeTwoSortedLists {
     public ListNode_21 mergeTwoLists(ListNode_21 l1, ListNode_21 l2) {
 
         //create temp listNode
