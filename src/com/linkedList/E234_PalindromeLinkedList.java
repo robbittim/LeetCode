@@ -1,9 +1,10 @@
 package com.linkedList;
 
-public class PalindromeLinkedList_234 {
+public class E234_PalindromeLinkedList {
 
 
     /*
+    06.19.21
     234. Palindrome Linked List
     https://leetcode.com/problems/palindrome-linked-list/submissions/
      */
@@ -19,6 +20,8 @@ public class PalindromeLinkedList_234 {
         }
 
         // reverse the list from the middle to the end
+        // 1 2 3 , 3 2 1 -> 1 2 3, 1 2 3
+        // compare 1,2,3 with 1,2,3, if node's value are diff, then its not palindrome
         // 1 2 3 > 3 2 1
         // 1 2 3 > 1 2 3
         slow = reverse(slow);
