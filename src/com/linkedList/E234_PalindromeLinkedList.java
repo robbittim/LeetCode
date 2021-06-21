@@ -14,17 +14,32 @@ public class E234_PalindromeLinkedList {
 
         ListNode fast = head;
         ListNode slow = head;
+
+        //make sure pointer fast reach at the end first
         while (fast != null && fast.next != null) {
+
             fast = fast.next.next;
             slow = slow.next;
+            System.out.println("fast = " + fast);
+            System.out.println("slow = " + slow);
         }
 
-        // reverse the list from the middle to the end
-        // 1 2 3 , 3 2 1 -> 1 2 3, 1 2 3
-        // compare 1,2,3 with 1,2,3, if node's value are diff, then its not palindrome
-        // 1 2 3 > 3 2 1
-        // 1 2 3 > 1 2 3
+        /**
+         *         reverse the list from the middle to the end
+         *         slow will be at 4th position, 3
+         *
+         *                 slow
+         *          1 2 3 , 3 2 1 -> 1 2 3, 1 2 3
+         *
+         *          reverse 3,2,1 to 1,2,3
+         *
+         *          compare 1,2,3 with 1,2,3, if node's value are diff, then its not palindrome
+         *          1 2 3 > 3 2 1
+         *          1 2 3 > 1 2 3
+          */
+
         slow = reverse(slow);
+        //fast will now be the head, so compare from the beginning
         fast = head;
 
         while(slow!=null) {
