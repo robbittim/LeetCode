@@ -1,5 +1,7 @@
 package com;
 
+import com.greedy.M435_NonOverlappingIntervals;
+import com.greedy.M452_MinNumberOfArrowsToBurstBalloons;
 import com.sorting.M215_KthLargestElement;
 import com.sorting.M347_TopKFrequentElements;
 import com.sorting.M451_SortCharactersByFrequency;
@@ -231,8 +233,17 @@ public class Main {
 //        M451_SortCharactersByFrequency m451_sortCharactersByFrequency = new M451_SortCharactersByFrequency();
 //        m451_sortCharactersByFrequency.frequencySort("Aabb");
 
-        M75_SortColors m75_sortColors = new M75_SortColors();
-        int temp[] = {2,0,2,1,1,0};
-        m75_sortColors.sortColors(temp);
+//        M75_SortColors m75_sortColors = new M75_SortColors();
+//        int temp[] = {2,0,2,1,1,0};
+//        m75_sortColors.sortColors(temp);
+
+//        M435_NonOverlappingIntervals m435_nonOverlappingIntervals = new M435_NonOverlappingIntervals();
+//
+//        int temp[][] = {{1,2},{2,3},{3,4},{1,3}};
+//        m435_nonOverlappingIntervals.eraseOverlapIntervals(temp);
+
+        M452_MinNumberOfArrowsToBurstBalloons m452_minNumberOfArrowsToBurstBalloons = new M452_MinNumberOfArrowsToBurstBalloons();
+        int temp[][] = {{10,16},{2,8},{1,6},{7,12}};
+        m452_minNumberOfArrowsToBurstBalloons.findMinArrowShots(temp);
     }
 }
