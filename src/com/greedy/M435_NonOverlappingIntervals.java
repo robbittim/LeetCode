@@ -36,13 +36,13 @@ public class M435_NonOverlappingIntervals {
 
         Based on 2nd(end) element:
               Arrays.sort(intervals, (a,b) -> a[1] - b[1]);
-              result:  [[1, 3], [2, 2], [2, 3], [3, 4]]
+              result:  [[1, 2], [2, 3], [1, 3], [3, 4]]
 
         Based on 1st(start) element:
              Arrays.sort(intervals, (a,b) -> a[0] - b[0]);
-             result:  [[1, 3], [2, 2], [2, 3], [3, 4]]
+             result:  [[1, 2], [1, 3], [2, 3], [3, 4]]
          */
-        Arrays.sort(intervals, (a,b) -> a[1] - b[1]);
+//        Arrays.sort(intervals, (a,b) -> a[0] - b[0]);
 
         /**
          * print 2D array

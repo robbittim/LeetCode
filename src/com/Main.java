@@ -1,5 +1,7 @@
 package com;
 
+import com.greedy.E605_CanPlaceFlowers;
+import com.greedy.M406_QueueReconstructionbyHeight;
 import com.greedy.M435_NonOverlappingIntervals;
 import com.greedy.M452_MinNumberOfArrowsToBurstBalloons;
 import com.sorting.M215_KthLargestElement;
@@ -238,12 +240,19 @@ public class Main {
 //        m75_sortColors.sortColors(temp);
 
 //        M435_NonOverlappingIntervals m435_nonOverlappingIntervals = new M435_NonOverlappingIntervals();
-//
 //        int temp[][] = {{1,2},{2,3},{3,4},{1,3}};
 //        m435_nonOverlappingIntervals.eraseOverlapIntervals(temp);
 
-        M452_MinNumberOfArrowsToBurstBalloons m452_minNumberOfArrowsToBurstBalloons = new M452_MinNumberOfArrowsToBurstBalloons();
-        int temp[][] = {{10,16},{2,8},{1,6},{7,12}};
-        m452_minNumberOfArrowsToBurstBalloons.findMinArrowShots(temp);
+//        M452_MinNumberOfArrowsToBurstBalloons m452_minNumberOfArrowsToBurstBalloons = new M452_MinNumberOfArrowsToBurstBalloons();
+//        int temp[][] = {{10,16},{2,8},{1,6},{7,12}};
+//        m452_minNumberOfArrowsToBurstBalloons.findMinArrowShots(temp);
+
+//        M406_QueueReconstructionbyHeight m406_queueReconstructionbyHeight = new M406_QueueReconstructionbyHeight();
+//        int temp[][] = {{7,0},{4,4},{7,1},{5,0},{6,1},{5,2}};
+//        m406_queueReconstructionbyHeight.reconstructQueue(temp);
+        E605_CanPlaceFlowers e605_canPlaceFlowers = new E605_CanPlaceFlowers();
+//        int temp[] = {1,0,0,0,0,1};
+        int temp[] = {1,0,0,0,0,1};
+        e605_canPlaceFlowers.canPlaceFlowers(temp,2);
     }
 }
