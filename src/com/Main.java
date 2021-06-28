@@ -1,9 +1,6 @@
 package com;
 
-import com.greedy.E605_CanPlaceFlowers;
-import com.greedy.M406_QueueReconstructionbyHeight;
-import com.greedy.M435_NonOverlappingIntervals;
-import com.greedy.M452_MinNumberOfArrowsToBurstBalloons;
+import com.greedy.*;
 import com.sorting.M215_KthLargestElement;
 import com.sorting.M347_TopKFrequentElements;
 import com.sorting.M451_SortCharactersByFrequency;
@@ -250,9 +247,17 @@ public class Main {
 //        M406_QueueReconstructionbyHeight m406_queueReconstructionbyHeight = new M406_QueueReconstructionbyHeight();
 //        int temp[][] = {{7,0},{4,4},{7,1},{5,0},{6,1},{5,2}};
 //        m406_queueReconstructionbyHeight.reconstructQueue(temp);
-        E605_CanPlaceFlowers e605_canPlaceFlowers = new E605_CanPlaceFlowers();
+//        E605_CanPlaceFlowers e605_canPlaceFlowers = new E605_CanPlaceFlowers();
+////        int temp[] = {1,0,0,0,0,1};
 //        int temp[] = {1,0,0,0,0,1};
-        int temp[] = {1,0,0,0,0,1};
-        e605_canPlaceFlowers.canPlaceFlowers(temp,2);
+//        e605_canPlaceFlowers.canPlaceFlowers(temp,2);
+
+//        E392_IsSubSequence e392_isSubSequence = new E392_IsSubSequence();
+//        e392_isSubSequence.isSubsequence("bb","ahbgdc");
+
+        M665_NonDecreasingArray m665_nonDecreasingArray = new M665_NonDecreasingArray();
+        int temp[] = {-1,4,2,3};
+        m665_nonDecreasingArray.checkPossibility(temp);
+
     }
 }
