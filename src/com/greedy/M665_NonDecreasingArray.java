@@ -41,6 +41,8 @@ public class M665_NonDecreasingArray {
                     return false;
                 }
 
+                // i-2<0 , so the element doesnt exist
+                // we can only modify nums[i-1]
                 if(i-2<0||nums[i-2]<=nums[i]){
                     nums[i-1] = nums[i];
 

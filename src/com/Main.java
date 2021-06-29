@@ -255,9 +255,17 @@ public class Main {
 //        E392_IsSubSequence e392_isSubSequence = new E392_IsSubSequence();
 //        e392_isSubSequence.isSubsequence("bb","ahbgdc");
 
-        M665_NonDecreasingArray m665_nonDecreasingArray = new M665_NonDecreasingArray();
-        int temp[] = {-1,4,2,3};
-        m665_nonDecreasingArray.checkPossibility(temp);
+//        M665_NonDecreasingArray m665_nonDecreasingArray = new M665_NonDecreasingArray();
+//        int temp[] = {-1,4,2,3};
+//        m665_nonDecreasingArray.checkPossibility(temp);
+
+//       E53_MaximumSubarray e53_maximumSubarray = new E53_MaximumSubarray();
+//        int temp[] = {-2,1,-3,4,-1,2,1,-5,4};
+//        e53_maximumSubarray.maxSubArray(temp);
+
+        M763_PartitionLabels m763_partitionLabels = new M763_PartitionLabels();
+        m763_partitionLabels.partitionLabels("ababcbacadefegdehijhklij");
+
 
     }
 }
