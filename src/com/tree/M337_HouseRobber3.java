@@ -8,7 +8,7 @@ https://leetcode.com/problems/house-robber-iii/description/
 
 
 public class M337_HouseRobber3 {
-    int max ;
+
     public int rob(TreeNode root) {
 
         // use an array to store the value of rod and noRod
