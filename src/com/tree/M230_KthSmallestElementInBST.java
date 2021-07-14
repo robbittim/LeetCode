@@ -56,7 +56,7 @@ public class M230_KthSmallestElementInBST {
         System.out.println("list = " + listWithoutDup);
 
         return list.get(k-1);
-            
+
 
         return 0;
 

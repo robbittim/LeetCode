@@ -40,6 +40,8 @@ public class E94_Inorder {
             // add the left most node value into the list
             //      then add the left node value into the list
             list.add(curr.val);
+
+            System.out.println("root value = " + root.val);
             //since we traversed all the left node from 2nd while loop
             //      after we pop from stack
             //      current node is whatever the last node of the left node
